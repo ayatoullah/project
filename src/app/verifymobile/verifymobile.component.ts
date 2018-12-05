@@ -1,17 +1,18 @@
-import { Component, OnInit } from '@angular/core';
-import { NgxSmartModalService } from 'ngx-smart-modal';
+import { Component, OnInit, NgModule } from '@angular/core';
+import { ComponentLoaderFactory } from 'ngx-bootstrap/component-loader';
 
 @Component({
   selector: 'app-verifymobile',
   templateUrl: './verifymobile.component.html',
-  styleUrls: ['./verifymobile.component.css']
+  styleUrls: ['./verifymobile.component.css'],
+  providers: [ComponentLoaderFactory]
 })
+//  @NgModule()
 export class VerifymobileComponent implements OnInit {
 
-  constructor(public ngxSmartModalService: NgxSmartModalService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.ngxSmartModalService.getModal('myModal').open();
   }
 
 }

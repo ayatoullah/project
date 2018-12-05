@@ -10,8 +10,9 @@ import { SelectDropDownModule } from 'ngx-select-dropdown';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input';
 import { FormsModule } from '@angular/forms';
-
+import {ModalModule} from 'ngx-bootstrap'
 import { Try2Component } from './try2/try2.component';
+// import { ComponentLoaderFactory } from 'ngx-bootstrap/component-loader';
 
 
 @NgModule({
@@ -33,7 +34,11 @@ import { Try2Component } from './try2/try2.component';
     SelectDropDownModule,
     BsDropdownModule.forRoot(),
     NgxIntlTelInputModule,
+    // ComponentLoaderFactory,
+    
     FormsModule,
+    ModalModule.forRoot()
+    
    
     
     
