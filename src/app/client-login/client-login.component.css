@@ -1,0 +1,189 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1400px) {
+  
+ 
+    
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1400px) {
+    .logologin{
+        display: block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom:70%;
+        margin-left: 25%;
+        margin-right:20%;
+        margin-top: 20%;
+       
+    }
+  
+  .form-control-private{
+      width:25%;
+      margin-left: 37.5%;
+      margin-right: 37.5%;
+      margin-top: 5%;
+      margin-bottom: 10%;
+      height:500px;
+      padding-bottom: 2%
+
+  }
+  .col-sm-6{
+      margin-left: 0px;
+      margin-right: 0px;
+      padding-right: 0px;
+      padding-left: 0px;
+
+      
+  }
+  .logo{
+      border-radius: 50%;
+      
+      margin-right: 5%;
+      margin-left: 20%;
+      height:180px;
+      width:200px;
+      margin-bottom: 200px;
+      margin-top: 5%;
+  }
+  .btn-lg{
+      width:210px;
+  }
+  .row{
+      margin-bottom: 2%
+  }
+  .col-sm-2{
+      margin-right: 2px;
+      width:20%
+  }
+  .col-sm-9{
+      width:100px;
+
+  }
+  input{
+    width:100%;
+}
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+ 
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+    input{
+        width:100%;
+    }
+    .form-control-private{
+        width:90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+        height:500px;
+        padding-bottom: 2%
+  
+    } 
+    .col-sm-6{
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 0px;
+        padding-left: 0px;
+  
+        
+    }
+    .logo{
+        border-radius: 50%;
+        
+        margin-right: 5%;
+        margin-left: 20%;
+        height:180px;
+        width:200px;
+        margin-bottom: 200px;
+        margin-top: 5%;
+    }
+    .btn-lg{
+        width:210px;
+    }
+    .row{
+        margin-bottom: 2%
+    }
+    .col-sm-2{
+        margin-right: 2px;
+        width:20%
+    }
+    .col-sm-9{
+        width:100px;
+  
+    }
+    .logologin{
+        display: block;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-bottom: 60%;
+        margin-top: 20%;
+        margin-left: 25%;
+        margin-right: 20%;
+    }
+    .col-sm-1{
+        width:20%;
+    }
+    .col-sm-3{
+        width:30%;
+    }
+    .col-sm-7{
+        width:50%;
+    }
+    
+  } 
+  
+
+ 
+
+
