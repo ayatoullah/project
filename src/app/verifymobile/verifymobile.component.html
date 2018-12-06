@@ -11,6 +11,12 @@
                 <div class="col-sm-12">
                 <ngx-intl-tel-input [(value)]="phone_number"></ngx-intl-tel-input>
                 </div>
+                <!-- <form name="sample-form" (ngSubmit)="submit()" #f="ngForm">
+                  <international-phone-number [(ngModel)]="model.phone_number" placeholder="Enter phone number" [maxlength]="20" [defaultCountry]="'in'" [required]="true" #phone_number="ngModel" name="phone_number"></international-phone-number>
+                  
+                   <div *ngIf="f.submitted && !phone_number.valid" class="help-block">Phone number is required and should be valid</div>
+                   <button type="submit">Submit</button>
+                 </form> -->
 
         </div>
     
